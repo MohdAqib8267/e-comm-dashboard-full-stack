@@ -1,0 +1,92 @@
+.header-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.h-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 1rem;
+}
+.e-comm{
+    font-size: 2rem;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.h-right{
+    display: flex;
+    flex: 1.5;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+
+}
+.h-list{
+    flex: 10;
+    flex: 10 1;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0rem;
+}
+.h-list-name{
+    
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.h-list-name>:nth-child(1){
+    background: #1F2833;
+    color: snow;
+    border-radius: 100%;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+.h-list>ul{
+    display: flex;
+    gap: 3rem;
+    margin-right: 2rem;
+    list-style: none;
+    align-items: center;
+    
+}
+.h-list>ul>li>a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.h-list ul li a:hover{
+    cursor: pointer;
+    color: var(--orange);
+
+}
+.h-btn{
+    
+    padding: 5px 1rem;
+   background: navajowhite;
+  
+    border-radius: 5px;
+    border: 3px solid transparent;
+    font-size: 1rem;
+}
+.h-btn:hover{
+    cursor: pointer;
+    background: transparent;
+    border: 3px solid var(--orange);
+    color: var(--orange);
+}
+.btn-log-sign{
+    display: flex;
+    gap: 1rem;
+   
+}
+.h-left>:nth-child(1){
+    transform: scale(1.5);
+}

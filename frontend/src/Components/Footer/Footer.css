@@ -1,0 +1,29 @@
+.f-conatiner{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+   position: absolute;
+   bottom: 0;
+   width: -webkit-fill-available;
+}
+.f-icons{
+    
+    gap: 2rem;
+    display: flex;
+    transform: scale(1.5);
+
+
+}
+.f-icons:hover{
+    cursor: pointer;
+}
+.f-conatiner>hr{
+    display: flex;
+    width: -webkit-fill-available;
+ 
+    border: 1px solid navajowhite;
+}

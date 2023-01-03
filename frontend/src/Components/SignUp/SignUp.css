@@ -1,0 +1,64 @@
+.signup{
+    display: flex;
+   
+    flex-direction: column;
+    padding: 2rem;
+    background: #D8C3A5;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 0.5rem;
+    border: 2px solid navajowhite;
+    border-radius: 1rem;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.app-name{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.app-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 1rem;
+}
+.app-form>input{
+    padding: 10px;
+    border: none;
+    
+    border-radius: 0.7rem;
+    width: 25rem;
+    background: aliceblue;
+    outline: none;
+}
+.btn-s{
+    background: navajowhite;
+    border: none;
+    padding: 0.6rem 0;
+    border-radius: 0.8rem;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.btn-s:hover{
+    cursor: pointer;
+    background: snow;
+    border: 2px solid navajowhite;
+}
+.app-form>span{
+    justify-content: center;
+    display: flex;
+    align-self: end;
+    font-family: cursive;
+}

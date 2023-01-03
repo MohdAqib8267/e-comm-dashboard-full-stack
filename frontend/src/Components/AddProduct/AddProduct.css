@@ -1,0 +1,80 @@
+.product-container{
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 70vh;
+}
+.icon1{
+    display: flex;
+    flex: 1;
+    transform: scale(0.7);
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex: 2;
+    align-items: center;
+    position: relative;   
+}
+.form-container>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background:#e2dbd0;
+    font-family: cursive;
+    border: 3px solid #dbd0d0;
+   width: 20rem;
+   border-radius: 1rem;
+   filter: drop-shadow(2px 4px 6px black);
+    
+}
+.form-container>form>input{
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    display: flex;
+    width: 20rem;
+    filter: drop-shadow(1px 2px 3px black);
+    
+}
+.form-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    font-family: -webkit-body;
+    font-weight: bold;
+}
+.form-name>:nth-child(2){
+    transform: scale(1.5);
+}
+.add-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: -webkit-body;
+    background: #aca9a5;
+}
+.add-btn:hover{
+    cursor: pointer;
+    background: #78736d;
+}
+.icon2{
+    display: flex;
+    flex: 1 1;
+    
+}
